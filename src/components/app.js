@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class App extends Component {
   render() {
     return (
-    	<div className="header_section">
+    	<div>
       <div className="w3-top">
   <div className="w3-bar w3-white w3-card" id="myNavbar">
     <a href="#home" className="w3-bar-item w3-button w3-wide">AKA</a>
@@ -27,8 +27,8 @@ export default class App extends Component {
   <a href="#pricing"  className="w3-bar-item w3-button">PRICING</a>
   <a href="#contact"  className="w3-bar-item w3-button">CONTACT</a>
 </nav>
-<header className="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div className="w3-display-left w3-text-white" style={{padding: "48px"}}>
+<header className="header_section w3-display-container w3-grayscale-min " id="home">
+  <div className="w3-display-left w3-text-green " >
     <span className="w3-jumbo w3-hide-small">Have the courage to follow your heart and intution</span><br />
     <span className="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br />
     <span className="w3-large">They somehow know what you truley want to become</span>
