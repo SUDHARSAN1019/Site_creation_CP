@@ -81,6 +81,22 @@ export default class App extends Component {
     </div>
     <div className="row">
       <div className="col-25">
+        <label htmlFor="fname">Mail Id</label>
+      </div>
+      <div className="col-75">
+        <input type="Emailmail" id="fname" name="firstname" placeholder="Your Email.." />
+      </div>
+    </div>
+    <div className="row">
+      <div className="col-25">
+        <label htmlFor="fname">Mobile No</label>
+      </div>
+      <div className="col-75">
+        <input type="tel" id="fname" name="firstname" placeholder="Your contact No.." />
+      </div>
+    </div>
+    <div className="row">
+      <div className="col-25">
         <label htmlFor="country">Country</label>
       </div>
       <div className="col-75">
